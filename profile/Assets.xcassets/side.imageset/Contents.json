@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "check.png",
+      "filename" : "side-profile-woman_2x_4x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "check@2x.png",
+      "filename" : "side-profile-woman_2x_4x@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "check@3x.png",
+      "filename" : "side-profile-woman_2x_4x@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

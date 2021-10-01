@@ -15,20 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="svgSplash" translatesAutoresizingMaskIntoConstraints="NO" id="eou-Ew-rBN">
-                                <rect key="frame" x="65" y="150" width="285" height="280"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About me!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yar-Pk-z9G">
-                                <rect key="frame" x="73" y="557" width="268" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About me!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yar-Pk-z9G">
+                                <rect key="frame" x="95.5" y="563" width="223" height="62.5"/>
                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.31129449609999998" green="0.25568941239999998" blue="0.50537431239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="side" translatesAutoresizingMaskIntoConstraints="NO" id="x7e-7e-PgN">
+                                <rect key="frame" x="10.5" y="158" width="400" height="300"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.32673963900000003" green="0.42635232210000001" blue="0.98721247909999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97650152440000004" green="0.85052198170000004" blue="0.77397209410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x7e-7e-PgN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="3.5" id="84R-Zd-6vM"/>
+                            <constraint firstItem="x7e-7e-PgN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-140" id="D84-hw-vo4"/>
+                            <constraint firstItem="yar-Pk-z9G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gdY-Wn-HmK"/>
+                            <constraint firstItem="yar-Pk-z9G" firstAttribute="top" secondItem="x7e-7e-PgN" secondAttribute="bottom" constant="105" id="sWC-hN-oY7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -37,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="svgSplash" width="350" height="234.5"/>
+        <image name="side" width="400" height="300"/>
     </resources>
 </document>
